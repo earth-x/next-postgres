@@ -1,10 +1,14 @@
+if (process.env.NODE_ENV !== 'production') {
+  require('now-env');
+}
+
 const Sequelize = require('sequelize');
 
 module.exports = {
   development: {
     username: 'test',
     password: 'test',
-    database: 'testdb',
+    database: 'sampledb',
     host: '127.0.0.1',
     port: 5432,
     dialect: 'postgres',

@@ -36,25 +36,6 @@ class Index extends React.Component {
             View next-postgres on GitHub
           </Text.Anchor>
         </Text.Paragraph>
-        <Text.Paragraph>
-          If you like writing mobile applications with 100% JavaScript, there is an example powered
-          by{' '}
-          <Text.Anchor target="blank" href="https://expo.io">
-            {' '}
-            Expo
-          </Text.Anchor>. You can open the{' '}
-          <Text.Anchor target="blank" href="https://expo.io/@jimmylee/expo-next-postgres">
-            Expo Project
-          </Text.Anchor>{' '}
-          with <Text.Anchor href="https://expo.io/tools#client">Expo Client</Text.Anchor>. <br />
-          <br />
-          <Text.Anchor
-            target="blank"
-            href="https://github.com/jimmylee/expo-next-postgres"
-            style={{ marginBottom: '20px', display: 'block' }}>
-            View expo-next-postgres on GitHub
-          </Text.Anchor>
-        </Text.Paragraph>
         <Text.PageTitle>Log in</Text.PageTitle>
         <AuthLoginForm style={{ marginBottom: 24 }} />
         <Text.PageTitle>Create an account</Text.PageTitle>
